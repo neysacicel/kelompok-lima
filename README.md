@@ -49,8 +49,9 @@ This project is designed to apply the following programming concepts:
 
 The program receives:
 
-- The player's guess
-- The number of attempts
+- Start date and time
+- End date and time
+- Duration
 
 ---
 
