@@ -12,9 +12,9 @@
 | No. | Name | Student ID | Role |
 |---|---|---|---|
 | 1 | Neysa Cicel Aqila | 2610312047 | Project Coordinator |
-| 2 | Arnoldus Janssen Yulianus Wekin | 2610312058 | Algorithm |
+| 2 | Aidan Noor Abisali | 2610312059 | Algorithm |
 | 3 | Juni Artaida | 2610312045 | Flowchart |
-| 4 | Aidan Noor Abisali | 2610312059 | Javascript |
+| 4 | Arnoldus Janssen Yulianus Wekin| 2610312058 | Javascript |
 | 5 | Fani Afnan Jannati | 2610312040 | Testing & Documentation |
 
 ---
