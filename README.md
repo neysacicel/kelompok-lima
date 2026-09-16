@@ -53,6 +53,7 @@ The program receives:
 - Start minute
 - End hour
 - End minute
+- User decision to continue or exit
 
 ---
 
@@ -62,9 +63,11 @@ The program compares the player's guess with the target number.
 
 If the guess is:
 
-- Too high → the program provides a "too high" message
-- Too low → the program provides a "too low" message
-- Correct → the player wins
+- Loop condition → runs as long as user want to
+- Hours duration → EndHour - StartHour
+if EndHour < StartHour, adds 24 hours to Endhour before subtracting
+- Minutes duration → EndMinute - StartMinute
+If Endminute < StartMinute, adds 60 minutes to EndMinute before subtracting and reduces HourDuration by 1
 
 ---
 
