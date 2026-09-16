@@ -49,9 +49,10 @@ This project is designed to apply the following programming concepts:
 
 The program receives:
 
-- Start date and time
-- End date and time
-- Duration
+- Start hour
+- Start minute
+- End hour
+- End minute
 
 ---
 
@@ -71,10 +72,9 @@ If the guess is:
 
 The program displays:
 
-- The result of each guess
-- Hints or feedback
-- The number of remaining attempts
-- The final game status (win/loss)
+- Start time
+- End time
+- Duration
 
 ---
 
