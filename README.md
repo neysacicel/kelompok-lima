@@ -114,11 +114,3 @@ The program is tested using several test scenarios.
 Testing documentation:
 
 `test-cases.md`
-
-
-
-<img width="468" height="241" alt="image" src="https://github.com/user-attachments/assets/f6279496-64e0-46af-87f6-e1d55f6ccf78" />
-
-<img width="468" height="106" alt="image" src="https://github.com/user-attachments/assets/7f77ea98-9997-4ba1-b3b2-e0cb35828e4f" />
-
-<img width="468" height="217" alt="image" src="https://github.com/user-attachments/assets/95167e2c-0995-40a6-9e8a-90ca8278be44" />
