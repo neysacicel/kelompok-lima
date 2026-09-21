@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Time and Duration Calculator"/>
+        <attribute name="authors" value=""/>
+        <attribute name="about" value="Program menghitung durasi waktu antara jam mulai dan jam selesai"/>
+        <attribute name="saved" value="2026-09-21 10:08:10 AM"/>
+        <attribute name="created" value="TEVOT1ZPO0pPWUtBOzIwMjYtMDktMjA7MTA6NTM6MzYgUE07MjEzMg=="/>
+        <attribute name="edited" value="TEVOT1ZPO0pPWUtBOzIwMjYtMDktMjE7MTA6MDg6MTAgQU07MjsyMjE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="StartAgain" type="String" array="False" size=""/>
+            <declare name="StartHour, StartMinute, EndHour, EndMinute, HourDuration, MinuteDuration" type="Integer" array="False" size=""/>
+            <assign variable="StartAgain" expression="&quot;yes&quot;"/>
+            <output expression="&quot;Welcome to Time &amp; Duration Calculator&quot;" newline="True"/>
+            <while expression="StartAgain = &quot;yes&quot;">
+                <output expression="&quot;Enter 2-digit start hour (00-23): &quot;" newline="True"/>
+                <input variable="StartHour"/>
+                <output expression="&quot;Enter 2-digit start minute (00-59): &quot;" newline="True"/>
+                <input variable="StartMinute"/>
+                <output expression="&quot;Enter 2-digit end hour (00-23): &quot;" newline="True"/>
+                <input variable="EndHour"/>
+                <output expression="&quot;Enter 2-digit end minute (00-59): &quot;" newline="True"/>
+                <input variable="EndMinute"/>
+                <if expression="EndHour &lt; StartHour">
+                    <then>
+                        <assign variable="HourDuration" expression="EndHour + 24 - StartHour"/>
+                    </then>
+                    <else>
+                        <assign variable="HourDuration" expression="EndHour - StartHour"/>
+                    </else>
+                </if>
+                <if expression="EndMinute &lt; StartMinute">
+                    <then>
+                        <assign variable="MinuteDuration" expression="EndMinute + 60 - StartMinute"/>
+                        <assign variable="HourDuration" expression="HourDuration - 1"/>
+                    </then>
+                    <else>
+                        <assign variable="MinuteDuration" expression="EndMinute - StartMinute"/>
+                    </else>
+                </if>
+                <output expression="&quot;Start: &quot; &amp; StartHour &amp; &quot;:&quot; &amp; StartMinute &amp; &quot; End: &quot; &amp; EndHour &amp; &quot;:&quot; &amp; EndMinute &amp; &quot; Duration: &quot; &amp; HourDuration &amp; &quot; Hour(s) &quot; &amp; MinuteDuration &amp; &quot; Minute(s)&quot;" newline="True"/>
+                <output expression="&quot;Do you want to perform another calculation? (yes/not)&quot;" newline="True"/>
+                <input variable="StartAgain"/>
+            </while>
+            <output expression="&quot;Thank you for using our calculator.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
