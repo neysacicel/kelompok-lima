@@ -85,7 +85,7 @@ The program displays:
 
 The algorithm used in the program is described in:
 
-`pseudocode.txt`
+[pseudocode.txt](https://github.com/neysacicel/kelompok-lima/blob/main/pseudocode.txt)
 
 ---
 
@@ -95,7 +95,7 @@ The flowchart is created using Flowgorithm.
 
 File:
 
-`flowchart.fprg`
+[flowchart.fprg](https://github.com/neysacicel/kelompok-lima/blob/main/flowchart.fprg)
 
 ---
 
@@ -103,7 +103,7 @@ File:
 
 The JavaScript implementation of the program is available in:
 
-`program.js`
+[program.js](https://github.com/neysacicel/kelompok-lima/blob/main/program.js)
 
 ---
 
@@ -113,4 +113,4 @@ The program is tested using several test scenarios.
 
 Testing documentation:
 
-`test-cases.md`
+[test-cases.md](https://github.com/neysacicel/kelompok-lima/blob/main/test-cases.md)
